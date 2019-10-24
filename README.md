@@ -19,7 +19,7 @@ The segments extracted after computing the RFM might be very useful for marketin
 
 ## Task
 
-We expect a model that computes the Recency, Frequency and Monetary metrics on Motors main category :
+We expect a model that computes the Recency, Frequency and Monetary metrics on Appartments category :
 
 - *Recency* : number of days since the last visit (any behavioral action). Every record in your sample stands for a behavioral action. 
 - *Frequency* : number of behavioral actions during one month.
@@ -68,7 +68,6 @@ The dataset is built based on the behavioral actions of AVITO users during Oct 1
 |ad_id | 'sdrn:avitoma:classified:37306376'| advertisement identifier (string)|
 |lead_id | '005f6ee8-1981-421f-a194-d9265c1ce5b0'| lead identifier (string)|
 |product_type | 'AndroidApp'| event platform (string)|
-|local_main_category| 'vehicules'| main category (string)|
 
 
 
