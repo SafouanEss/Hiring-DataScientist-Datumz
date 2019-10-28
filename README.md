@@ -5,30 +5,14 @@ The following task description and related Data sample is intended to candidates
 ## Background
 
 The task topic aims to give more context on the *Engagement Segments Initiative*, which has been launched to evaluate how good are we performing on engaging our users.
-
 This data-driven initiative is meant to provide us with valuable insights on how engaged our users are, and allows our product teams to promote actions to retain them more and better.
-
-The model: RFM¶
-
-RFM is a method used for analyzing customer value and it is a proven marketing model for behavior based customer segmentation. It groups customers based on their transaction history – how recently, how often and how much did they buy.
-https://en.wikipedia.org/wiki/RFM_(customer_value)
-
-The model should allow us to cluster users identifying them as more or less engaged, according to a series of variables defined thereafter .
-The segments extracted after computing the RFM might be very useful for marketing and product teams to better target experiments and campaigns. Moreover, the insights extracted from computing the model may be also used for future personalization services.
 
 
 ## Task
 
-We expect a model that computes the Recency, Frequency and Monetary metrics on Appartments category :
+In order to capture a better value, you have to consider the following variables (Leads | Ad views | Ad Insertions).
 
-- *Recency* : number of days since the last visit (any behavioral action). Every record in your sample stands for a behavioral action. 
-- *Frequency* : number of behavioral actions during one month.
-- *Monetary* : total value of a user during one month (number of leads, number of ad inserts, number ad views)
-
-
-In order to capture a better value, you have to consider the following variables (Leads | Ad views | Ad Insertions) in your model. 
-
-=> *Leads* : Total number of potential users trying to contact our sellers mainly via 3 mediums ( SMS,Chat,Call) to buy any product via AVito.The lead id shouldn't be unknown.
+=> *Leads* : Total number of potential users trying to contact our sellers mainly via 3 mediums ( SMS,Chat,Call) to buy any product via AVito.The lead id should be known.
 
 => *Ad views* : Total number of detail views performed by our visitors on any ad.The event type is tagged as 'View'
 
