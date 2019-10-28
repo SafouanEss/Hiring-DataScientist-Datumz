@@ -44,16 +44,16 @@ The users above 75% percentile of total users but only taking in consideration l
 You have to create a **reproducible report**\* answering the following questions:
 
 ------------------------------------------------------------------------------------------------------------------------------
-1. How does the distribution of your clusters based on RF metrics look like, Describe and Visualize your results ?
-3. What is the share of the most valuable users in your group?
-4. What are the top action the former group performs (ad inserts or leads) ?
-5. Visualize the relationship between the leads events and ad inserts value across your users base ? 
-6. Is there any correlation between the former actions ? 
+
+1. What is the share of the most valuable users in your group?
+2. What are the top action the former group performs (ad inserts or leads) ?
+3. Visualize the relationship between the leads events and ad inserts value across your users base ? 
+4. Is there any correlation between the former actions ? 
 5. Summarize your insights in an *executive summary*.
 ------------------------------------------------------------------------------------------------------------------------------
 \* Given dependencies and other instructions, we should be able to re-run your source code with the dataset in the same directory and obtain the same results and figures. Popular formats for this include RMarkdown and Jupyter Notebook (formerly IPython).
 
-**Note**: if you submit your report as a Jupyter/IPython notebook , please upload a copy to GitHub and include the link.
+**Note**:  you need to submit your report as a Jupyter/IPython notebook , please make sure not to upload a public copy to GitHub.
 
 ## Data Sample Description 
 
